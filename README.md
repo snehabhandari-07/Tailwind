@@ -33,8 +33,6 @@ I'm currently learning **Tailwind CSS**, and this is my **first ever project** u
 - Importance of spacing, alignment, and design consistency
 
 
-If you're also learning Tailwind or HTML, feel free to fork this repo and play around! 
-
 ---
 
 👩‍💻 Made with 💙 by Sneha Bhandari
