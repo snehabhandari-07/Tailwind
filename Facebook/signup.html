@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up for Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200">
+    <div class="max-w-screen-lg mx-auto flex flex-col items-center mt-10">
+        <div>
+            <img class="w-72" src="./logo.svg">
+        </div>
+        <div class="box flex flex-col bg-white rounded-md shadow-lg w-5/12 items-center p-4">
+            <h3 class="text-2xl font-bold">Create a new account</h3>
+            <p class="text-gray-500">It's quick and easy.</p>
+            <hr class="w-full my-2">
+
+            <!-- Name Fields -->
+            <div class="flex w-11/12 space-x-2">
+                <input type="text" placeholder="First name" class="border border-gray-300 w-1/2 rounded-md p-1 text-base">
+                <input type="text" placeholder="Surname" class="border border-gray-300 w-1/2 rounded-md p-1 text-base">
+            </div>
+
+             <!-- Date of Birth -->
+             <label class="text-sm font-semibold text-gray-500 mt-2 w-11/12">Date of Birth</label>
+             <div class="flex w-11/12 space-x-2">
+                 <select class="border border-gray-300 rounded-md p-2 w-1/3">
+                     <option value="28">28</option>
+                 </select>
+                 <select class="border border-gray-300 rounded-md p-2 w-1/3">
+                     <option value="Mar">Mar</option>
+                 </select>
+                 <select class="border border-gray-300 rounded-md p-2 w-1/3">
+                     <option value="2025">2025</option>
+                 </select>
+             </div>
+ 
+             <!-- Gender Selection -->
+             <label class="text-sm font-semibold text-gray-500 mt-2 w-11/12">Gender</label>
+             <div class="flex w-11/12 justify-between space-x-2">
+                 <label class="border border-gray-300 rounded-md p-2 w-1/3 flex items-center">
+                     <input type="radio" name="gender" value="Female" class="mr-2"> Female
+                 </label>
+                 <label class="border border-gray-300 rounded-md p-2 w-1/3 flex items-center">
+                     <input type="radio" name="gender" value="Male" class="mr-2"> Male
+                 </label>
+                 <label class="border border-gray-300 rounded-md p-2 w-1/3 flex items-center">
+                     <input type="radio" name="gender" value="Custom" class="mr-2"> Custom
+                 </label>
+             </div>
+
+            <!-- Mobile and Password -->
+            <input type="text" placeholder="Mobile number or Email address" class="border border-gray-300 my-2 w-11/12 rounded-md p-2 text-base">
+            <input type="password" placeholder="New Password" class="border border-gray-300 my-2 w-11/12 rounded-md p-2 text-base">
+
+
+            <p class="text-xs text-gray-500 mt-2">People who use our service may have uploaded your contact information to Facebook. <span class="hover:text-blue-500 hover:underline cursor-pointer">Learn more</span>.</p>
+            <p class="text-xs text-gray-500 mt-3">By clicking Sign Up, you agree to our <span class="hover:text-blue-500 hover:underline cursor-pointer">Terms</span>, <span class="hover:text-blue-500 hover:underline cursor-pointer">Privacy Policy</span> and <span class="hover:text-blue-500 hover:underline cursor-pointer">Cookies Policy</span>. You may receive SMS notifications from us and can opt out at any time.</p>
+
+            <button class="bg-green-600 text-white w-2/4 rounded-md font-semibold py-2 mt-4">Sign Up</button>
+            <a href="cancel.html" class="text-blue-500 text-lg my-2">Already have an account?</a>
+        </div>
+    </div>
+</body>
+</html>
